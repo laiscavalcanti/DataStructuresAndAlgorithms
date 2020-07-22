@@ -3,3 +3,4 @@ import {circleArea, squareArea } from './CalcArea.js'; //importing the classes f
 console.log(circleArea(2));
 console.log(squareArea(3));
 
+//export {circleArea as circle, squareArea as square}
