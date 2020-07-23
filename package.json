@@ -1,12 +1,12 @@
 {
-    "name": "estudos",
-    "version": "1.0.0",
-    "description": "Exercícios e estudos do Livro: Estrutura de Dados e Algoritmos com Javascript",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "type": "module"
-  }
+  "name": "estudos",
+  "version": "1.0.0",
+  "description": "Exercícios e estudos do Livro: Estrutura de Dados e Algoritmos com Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
