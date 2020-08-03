@@ -1,3 +1,13 @@
 let averageTemp = [];
 averageTemp[0] = [72, 75, 79, 79, 81, 81];
-gitaverageTemp[1] = [81, 79, 75, 75, 73, 73];
+averageTemp[1] = [81, 79, 75, 75, 73, 73];
+
+function printMatrix(myMatrix){
+    for(let i = 0; i < myMatrix.length; i++){
+        for (let j = 0; j < myMatrix[i].lenght; j++){
+            console.log(myMatrix[i][j])
+        }
+    }
+}
+
+console.table(averageTemp) //
