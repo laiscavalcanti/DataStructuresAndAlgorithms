@@ -1,5 +1,4 @@
-let averageTemp = [];
-averageTemp[0] = [72, 75, 79, 79, 81, 81];
+let averageTemp = []; //in js doesn't exist an object matrix, but exists an arrays of arrays, to arrays unidimensionales
 averageTemp[1] = [81, 79, 75, 75, 73, 73];
 
 function printMatrix(myMatrix){
@@ -10,4 +9,4 @@ function printMatrix(myMatrix){
     }
 }
 
-console.table(averageTemp) //
+console.table(averageTemp) 
