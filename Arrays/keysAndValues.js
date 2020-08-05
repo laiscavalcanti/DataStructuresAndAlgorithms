@@ -9,4 +9,9 @@ aentries = numbers.entries();
 for(const n of aentries){
     console.log(n);
 
+const aKeys = numbers.keys();
+console.log(aKeys.next());
+console.log(aKeys.next());
+console.log(aKeys.next());
+
 }//the entries method returns @@iterator which has a pair key/value
