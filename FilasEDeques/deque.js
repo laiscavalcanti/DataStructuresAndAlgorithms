@@ -1,8 +1,13 @@
-class deque{
+class Deque{
     constructor(){
         this.count = 0;
         this.lowestCount = 0;
         this.items = {};
+    }
+
+    addBack(element){
+        this.items[this.count] = element;
+        this.count ++;
     }
 
     addFront(element){
@@ -20,11 +25,6 @@ class deque{
             this.items[0] = element;
         }
 
-    }
-
-    addBack(element){
-        this.items[this.count] = element;
-        this.count ++;
     }
 
     removeFront(){
@@ -53,6 +53,15 @@ class deque{
         return this.size() === 0;
     }
     peekBack(){
-
+        if(this.isEmpty()){
+            return undefined;
+        }
+        return this.items[this.lowestCount];
     }
 }
+
+const deque = new Deque()
+console.log(deque.isEmpty());
+deque.addBack('Maria')
+deque.addBack('Joao')
+console.log(deque.toString())
