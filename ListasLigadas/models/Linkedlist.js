@@ -1,11 +1,11 @@
 //import { defaultEquals } from '../util'
-import { Node } from './models/linked-list-models.js'
+import { Node } from './linked-list-models.js'
 
 export default class LinkedList{
     constructor(){ //equalsFn = defaultEquals
         this.count = 0
         this.head = undefined
-        //this.equalsFn = equalsFn
+        this.equalsFn = equalsFn
     }
 
     push(element){
